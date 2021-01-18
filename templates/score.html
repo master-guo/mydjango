@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>score display</title>
+</head>
+<body>
+    {% if num > 85 and num <= 100 %}
+        成绩不错！
+    {% elif num > 60 and num <= 85 %}
+        需要加油！
+    {% else %}
+        bad boy!
+    {% endif %}
+</body>
+</html>
